@@ -12,10 +12,12 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>SITEFLOW</title>
-  </head>
+  </head> 
 <body>
-  
-
+<?php 
+require ('applications/lib/dev.php');
+debug($test);
+?>
 qwe
 
 
