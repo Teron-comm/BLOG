@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<?php session_start(); ?>
 <html lang="ru">
 
 <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,inital-sacle=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
 
 <body>
     <?php
+    
     require('applications/lib/dev.php');
 
     use applications\core\Router;
@@ -25,9 +27,8 @@
 
 
 
-
     $rounter = new Router;
-session_start();
+    $rounter->run();
 
     ?>
 
