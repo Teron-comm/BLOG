@@ -5,6 +5,6 @@ class Router
 {
     function __construct()
     {
-        echo 'я класс рутер';
+       
     }
 }
