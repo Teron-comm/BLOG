@@ -28,7 +28,8 @@ class View
     }
     public function redirect($url)
     {
-        header('location: '.$url);
+        header('Location: ' . $url);
+        exit;
     }
     public static function erroeCode($code)
     {

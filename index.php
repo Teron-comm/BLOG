@@ -1,6 +1,5 @@
 <?php session_start(); ?>
-
-    <?php
+<?php
 
     require('applications/lib/dev.php');
 
@@ -18,5 +17,4 @@
     $rounter = new Router;
     $rounter->run();
 
-    ?>
-
+?>
