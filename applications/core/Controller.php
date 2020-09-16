@@ -17,3 +17,5 @@ abstract class Controller
 
     }
 }
+
+// контроллер, строит страницу по объекту View

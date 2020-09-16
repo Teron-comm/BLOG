@@ -17,3 +17,5 @@ class AccountController extends Controller
         $this->view->render('Регистрация');
     }
 }
+
+// контроллер аккаунта
