@@ -13,7 +13,9 @@ class Db
         $this->db = new PDO('mysql:host='.$config['host'].';dbname='.$config['dbname'], $config['user'],$config['password']);
     }
     public function query($sql) {
-        $this->db->query($sql);
+        $query = $this->db->query($sql);
+        $result = $query->fetchColumn();
+        debug($result);
     }
 }
 
